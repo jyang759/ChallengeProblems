@@ -1,7 +1,7 @@
 # ChallengeProblems
 Leetcode style questions that I have created and implemented
 
-# TowerOfHanoi: 
+# 1. TowerOfHanoi: 
 https://en.wikipedia.org/wiki/Tower_of_Hanoi 
 The Tower of Hanoi is a mathematical puzzle that consists of three pegs and a number of disks of different sizes, which can slide onto any peg. The puzzle starts with the disks in a neat stack in ascending order of size on one peg, the smallest at the top, forming a conical shape.
 
@@ -38,11 +38,25 @@ Move disk 1 from A to C
 
 Here, `A`, `B`, and `C` are the three pegs, and the disks are numbered from 1 (smallest) to n.
 
-# JosephusProblems: 
-Attempts to solve the Josephus Problem: 
+# 2. JosephusProblems: 
+
+This Java-based implementation attempts to solve the infamous Josephus Problem, also known as Josephus Permutation.
+
+## Overview
+
+The Josephus Problem is a famous theoretical problem in mathematics and computer science. The challenge revolves around determining the safe position (or the last remaining position) in a circle formed by `n` people, where every `k-th` person is eliminated until only one person remains.
+
+## Sample Interaction
+
+```
+Enter the number of people in the circle: 7
+Enter the step size: 3
+The last person remaining is at position: 4
+```
+
 https://en.wikipedia.org/wiki/Josephus_problem
 
-# SpiralMatrix: 
+# 3. SpiralMatrix: 
 Given an `m x n` matrix of integers, traverse the matrix in spiral order and add every third element you encounter to a sum. Return the total sum after the spiral traversal.
 
 **Example:**
