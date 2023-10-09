@@ -19,13 +19,14 @@ public class JosephusProblem {
     }
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Enter the number of people in the circle: ");
-        int N = scan.nextInt(); // Replace with the number of people (N) in the circle
-        System.out.print("\nEnter the step size: ");
-        int K = scan.nextInt(); // Replace with the step size (k)
+        try (Scanner scan = new Scanner(System.in)) {
+            System.out.print("Enter the number of people in the circle: ");
+            int N = scan.nextInt(); // Replace with the number of people (N) in the circle
+            System.out.print("\nEnter the step size: ");
+            int K = scan.nextInt(); // Replace with the step size (k)
 
-        int lastPerson = josephus(N, K);
-        System.out.println("The last person remaining is at position: " + lastPerson);
+            int lastPerson = josephus(N, K);
+            System.out.println("The last person remaining is at position: " + lastPerson);
+        }
     }
 }

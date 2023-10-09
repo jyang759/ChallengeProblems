@@ -16,10 +16,11 @@ public class TowerOfHanoi {
     }
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Please enter the number of disks: ");
-        int numberOfDisks = scan.nextInt(); // Replace with the number of disks you want to use
-        int totalMoves = solveTowerOfHanoi(numberOfDisks, 'A', 'C', 'B');
-        System.out.println("Total number of moves: " + totalMoves);
+        try (Scanner scan = new Scanner(System.in)) {
+            System.out.print("Please enter the number of disks: ");
+            int numberOfDisks = scan.nextInt(); // Replace with the number of disks you want to use
+            int totalMoves = solveTowerOfHanoi(numberOfDisks, 'A', 'C', 'B');
+            System.out.println("Total number of moves: " + totalMoves);
+        }
     }
 }
