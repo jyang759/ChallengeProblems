@@ -80,3 +80,34 @@ The spiral order traversal for the above matrix is `[1,2,3,6,9,8,7,4,5]`. Every 
 - The number of the rows, `m`, and columns, `n`, of the matrix will be in the range [1, 20].
 - The integer values in the matrix will be in the range [-10^4, 10^4].
 This solution uses a typical approach for spiral traversal of a matrix and adds the logic for summing up every third element encountered.
+
+
+Certainly! Here's a new section of your README that describes the problem:
+
+---
+
+# 4. RoundTable
+
+**Objective**: To find the number of adjacent pairs in a circular arrangement (imaginary round table) whose sum is even. Each number can be used in only one pair.
+
+**Input**: An array of integers.
+
+**Output**: The number of adjacent pairs in the circular arrangement that have an even sum.
+
+**Constraints**:
+- If the length of the input array is 0 or 1, the output is 0.
+- If all integers in the array are the same or all are even or all are odd, the output is half the length of the array.
+- In the main processing loop, if two adjacent integers are found to sum up to an even number, they form a pair and are counted. The search then continues with the next unpaired integer.
+- Special consideration is given to the first and the last integer in the array. If the first integer has not been paired with its adjacent integer in the array, it is then checked to see if it forms an even sum with the last integer. If so, they are counted as a pair.
+
+**Example**:
+- Input: `{1, 2, 3, 4, 5}`
+- Output: `2`
+  
+  Explanation: The pairs are `(2, 3)` and `(4, 5)`.
+
+**Implementation**:
+
+The problem is implemented in the `RoundTable` class. The main function `solution(int[] A)` returns the count of pairs. Three helper functions - `allSame(int[] A)`, `allEven(int[] A)`, and `allOdd(int[] A)` are used to handle specific conditions mentioned in the constraints.
+
+A test suite with several test cases can be found in the `main` method of the `RoundTable` class.
