@@ -7,7 +7,7 @@ The Tower of Hanoi is a mathematical puzzle that consists of three pegs and a nu
 
 ## Problem Statement
 
-Write a function that attempts to solve the Tower of Hanoi problem. The function should output:
+Write a function that attempts to solve the Tower of Hanoi problem. The function should output the following:
 
 1. **Minimum number of moves** needed to solve the puzzle.
 2. **Step-by-step solution** indicating which tower to move each disk to.
