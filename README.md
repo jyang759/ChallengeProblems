@@ -111,3 +111,61 @@ Certainly! Here's a new section of your README that describes the problem:
 The problem is implemented in the `RoundTable` class. The main function `solution(int[] A)` returns the count of pairs. Three helper functions - `allSame(int[] A)`, `allEven(int[] A)`, and `allOdd(int[] A)` are used to handle specific conditions mentioned in the constraints.
 
 A test suite with several test cases can be found in the `main` method of the `RoundTable` class.
+
+
+# 5. Collatz Problem
+
+The Collatz Problem, also known as the 3n + 1 conjecture, is a sequence defined as follows: 
+
+1. Start with any positive integer `n`.
+2. If `n` is even, then `n = n / 2`.
+3. If `n` is odd, then `n = 3n + 1`.
+4. Repeat the process indefinitely.
+
+The conjecture is that no matter what value of `n`, the sequence will always eventually reach the value 1.
+
+## Contents
+
+- [Background](#background)
+- [Implementation Details](#implementation-details)
+- [Usage](#usage)
+- [Test Cases](#test-cases)
+
+## Background
+
+The Collatz problem is a well-known unsolved problem in mathematics. It has been studied for many years and although the sequence has been tested for numbers up to 2^60 and always reaches the value 1, no one has been able to prove that it is true for all positive integers.
+
+## Implementation Details
+
+In the provided implementation, the `Collatz` class offers a static `solve` method that calculates which number between 2 and a given `n` (inclusive) will generate the longest Collatz sequence. The function returns the starting number of this sequence.
+
+## Usage
+
+To use the `Collatz` class:
+
+```kotlin
+val result = Collatz.solve(100)
+println("The number with the longest Collatz sequence up to 100 is: $result")
+```
+
+## Test Cases
+
+Included are various test cases that verify the correctness of the solution:
+
+1. **Base Test Cases:**
+   - Test for the lower boundary
+   - Test for a small value
+   - Test for a known value
+
+2. **Additional Test Cases:**
+   - Test for slightly larger values
+
+3. **Edge Test Cases:**
+   - Test for maximum possible input
+   - Test for negative values
+   - Test for values less than 2
+
+4. **Functional Test Cases:**
+   - Test to ensure that the sequence actually reaches 1 for any given input
+
+After running the test suite, if all conditions hold true, "All tests passed!" will be printed to the console.
