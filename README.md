@@ -113,9 +113,9 @@ The problem is implemented in the `RoundTable` class. The main function `solutio
 A test suite with several test cases can be found in the `main` method of the `RoundTable` class.
 
 
-# 5. Collatz Problem
+# 5. 3n + 1 Conjecture
 
-The Collatz Problem, also known as the 3n + 1 conjecture, is a sequence defined as follows: 
+The 3n + 1 conjecture, is a sequence defined as follows: 
 
 1. Start with any positive integer `n`.
 2. If `n` is even, then `n = n / 2`.
