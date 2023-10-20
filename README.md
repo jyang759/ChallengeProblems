@@ -115,7 +115,7 @@ A test suite with several test cases can be found in the `main` method of the `R
 
 # 5. 3n + 1 Conjecture
 
-The 3n + 1 conjecture, is a sequence defined as follows: 
+The 3n + 1 conjecture is a sequence defined as follows: 
 
 1. Start with any positive integer `n`.
 2. If `n` is even, then `n = n / 2`.
