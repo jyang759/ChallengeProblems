@@ -3,7 +3,7 @@ Leetcode style questions that I have created and implemented
 
 # 1. TowerOfHanoi: 
 https://en.wikipedia.org/wiki/Tower_of_Hanoi 
-The Tower of Hanoi is a mathematical puzzle that consists of three pegs and a number of disks of different sizes, which can slide onto any peg. The puzzle starts with the disks in a neat stack in ascending order of size on one peg, the smallest at the top, forming a conical shape.
+The Tower of Hanoi is a mathematical puzzle that typically consists of 3 pegs and a number of disks of different sizes, which can slide onto any peg. The puzzle starts with the disks in a neat stack in ascending order of size on one peg, the smallest at the top, forming a conical shape.
 
 ## Problem Statement
 
