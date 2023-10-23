@@ -5,7 +5,7 @@ Leetcode style questions that I have created and implemented
 https://en.wikipedia.org/wiki/Tower_of_Hanoi 
 The Tower of Hanoi is a mathematical puzzle that typically consists of 3 pegs and a number of disks of different sizes, which can slide onto any peg. The puzzle starts with the disks in a neat stack in ascending order of size on one peg, the smallest at the top, forming a conical shape.
 
-## Problem Statement
+## Problem Statements
 
 Write a function that attempts to solve the Tower of Hanoi problem. The function should output the following:
 
