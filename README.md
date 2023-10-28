@@ -1,5 +1,5 @@
 # ChallengeProblems
-Leetcode style questions that I have created and implemented
+A set of problems that I have created and implemented
 
 # 1. TowerOfHanoi: 
 https://en.wikipedia.org/wiki/Tower_of_Hanoi 
